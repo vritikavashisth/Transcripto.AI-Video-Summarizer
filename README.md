@@ -102,11 +102,9 @@ sudo apt install ffmpeg
 streamlit run app.py
 Your browser will open the interface where you can upload videos for transcription + summarization.
 
-📝 Example Summary Output
+Screenshots -
 
-“A Data Scientist is a professional who uses data to solve business problems.
-They work with large datasets, apply statistical models, machine learning,
-and computational methods to derive insights and make data-driven decisions.”
+Home Page -Screenshot 2025-11-18 180908.png
 
 🛣 Roadmap (Upcoming Features)
 🌍 Multi-language transcription
