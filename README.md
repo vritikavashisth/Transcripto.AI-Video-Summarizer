@@ -49,8 +49,6 @@ It uses Whisper for speech-to-text and BART for text summarization — all wrapp
 ↓
 📝 Final Output (Transcript + Summary)
 
-yaml
-Copy code
 
 ---
 
@@ -66,8 +64,6 @@ AI-Agent-Transcribing-and-Summarizing-Videos/
 ├── requirements.txt # Dependencies
 └── notes.txt # Notes (optional)
 
-yaml
-Copy code
 
 ---
 
@@ -91,37 +87,29 @@ Copy code
 ## 🛠 Installation
 
 ### 1️⃣ Clone Repository
-```bash
 git clone https://github.com/your-username/AI-Agent-Transcribing-and-Summarizing-Videos.git
 cd AI-Agent-Transcribing-and-Summarizing-Videos
+
 2️⃣ Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
+
 3️⃣ Install FFmpeg
 Windows: Download from ffmpeg.org
 macOS:
-
-bash
-Copy code
 brew install ffmpeg
 Linux:
-
-bash
-Copy code
 sudo apt install ffmpeg
+
 ▶️ Run the Application
-bash
-Copy code
 streamlit run app.py
 Your browser will open the interface where you can upload videos for transcription + summarization.
 
 📝 Example Summary Output
-pgsql
-Copy code
+
 “A Data Scientist is a professional who uses data to solve business problems.
 They work with large datasets, apply statistical models, machine learning,
 and computational methods to derive insights and make data-driven decisions.”
+
 🛣 Roadmap (Upcoming Features)
 🌍 Multi-language transcription
 
