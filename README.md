@@ -102,9 +102,29 @@ sudo apt install ffmpeg
 streamlit run app.py
 Your browser will open the interface where you can upload videos for transcription + summarization.
 
-Screenshots -
+## 📸 Screenshots
 
-Home Page -Screenshot 2025-11-18 180908.png
+### 🔹 Home Page
+![Home Page](/mnt/data/Screenshot%202025-11-18%20180908.png)
+
+### 🔹 Video Upload Screen
+![Upload Screen](/mnt/data/Screenshot%202025-11-18%20180942.png)
+
+### 🔹 Processing Screen
+![Processing](/mnt/data/Screenshot%202025-11-18%20181007.png)
+
+### 🔹 Summary Output
+![Summary Output](/mnt/data/Screenshot%202025-11-18%20181240.png)
+
+### 🔹 Transcript Output
+![Transcript Output](/mnt/data/Screenshot%202025-11-18%20181253.png)
+
+### 🔹 Download Transcript
+![Download Transcript](/mnt/data/Screenshot%202025-11-18%20181305.png)
+
+### 🔹 Download Summary
+![Download Summary](/mnt/data/Screenshot%202025-11-18%20181424.png)
+
 
 🛣 Roadmap (Upcoming Features)
 🌍 Multi-language transcription
