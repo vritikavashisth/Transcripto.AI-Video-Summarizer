@@ -49,7 +49,6 @@ It uses Whisper for speech-to-text and BART for text summarization — all wrapp
 ↓
 📝 Final Output (Transcript + Summary)
 
-
 ---
 
 ## 📁 Project Structure
@@ -63,7 +62,6 @@ AI-Agent-Transcribing-and-Summarizing-Videos/
 ├── utils.py # Chunking + helpers
 ├── requirements.txt # Dependencies
 └── notes.txt # Notes (optional)
-
 
 ---
 
