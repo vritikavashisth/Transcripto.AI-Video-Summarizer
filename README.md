@@ -103,27 +103,28 @@ streamlit run app.py
 Your browser will open the interface where you can upload videos for transcription + summarization.
 
 ## 📸 Screenshots
+## 📸 Screenshots
 
 ### 🔹 Home Page
-![Home Page](/mnt/data/Screenshot%202025-11-18%20180908.png)
+![Home Page](Screenshot 2025-11-18 180908.png)
 
 ### 🔹 Video Upload Screen
-![Upload Screen](/mnt/data/Screenshot%202025-11-18%20180942.png)
+![Upload Screen](Screenshot 2025-11-18 180942.png)
 
 ### 🔹 Processing Screen
-![Processing](/mnt/data/Screenshot%202025-11-18%20181007.png)
+![Processing](Screenshot 2025-11-18 181007.png)
 
 ### 🔹 Summary Output
-![Summary Output](/mnt/data/Screenshot%202025-11-18%20181240.png)
+![Summary Output](Screenshot 2025-11-18 181253.png) 
 
 ### 🔹 Transcript Output
-![Transcript Output](/mnt/data/Screenshot%202025-11-18%20181253.png)
+![Transcript Output](Screenshot 2025-11-18 181240.png) 
 
 ### 🔹 Download Transcript
-![Download Transcript](/mnt/data/Screenshot%202025-11-18%20181305.png)
+![Download Transcript](Screenshot 2025-11-18 181305.png)
 
 ### 🔹 Download Summary
-![Download Summary](/mnt/data/Screenshot%202025-11-18%20181424.png)
+![Download Summary](Screenshot 2025-11-18 181424.png)
 
 
 🛣 Roadmap (Upcoming Features)
