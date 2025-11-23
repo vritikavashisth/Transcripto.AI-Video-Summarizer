@@ -105,25 +105,25 @@ Your browser will open the interface where you can upload videos for transcripti
 ## 📸 Screenshots
 
 ### 🔹 Home Page
-[Home Page](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/Screenshot%202025-11-18%20180908.png?raw=true) 
+[Home Page](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/screenshots/Screenshot%202025-11-18%20180908.png?raw=true)
 
-### 🔹 Video Upload Screen
-[Upload Screen](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/Screenshot%202025-11-18%20180942.png?raw=true)
+### 🔹 Upload Video
+[Upload Video](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/screenshots/Screenshot%202025-11-18%20180942.png?raw=true)
 
 ### 🔹 Processing Screen
-[Processing](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/Screenshot%202025-11-18%20181007.png?raw=true)
+[Processing](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/screenshots/Screenshot%202025-11-18%20181007.png?raw=true)
 
 ### 🔹 Summary Output
-[Summary Output](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/Screenshot%202025-11-18%20181253.png?raw=true) 
+[Summary Output](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/screenshots/Screenshot%202025-11-18%20181253.png?raw=true)
 
 ### 🔹 Transcript Output
-[Transcript Output](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/Screenshot%202025-11-18%20181240.png?raw=true) 
+[Transcript Output](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/screenshots/Screenshot%202025-11-18%20181240.png?raw=true)
 
 ### 🔹 Download Transcript
-[Download Transcript](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/Screenshot%202025-11-18%20181305.png?raw=true) 
+[Download Transcript](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/screenshots/Screenshot%202025-11-18%20181305.png?raw=true) 
 
 ### 🔹 Download Summary
-[Download Summary](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/Screenshot%202025-11-18%20181424.png?raw=true)
+[Download Summary](https://github.com/vritikasharmaa/Transcripto.AI---Video-Transcriptor-Summarizer/blob/main/screenshots/Screenshot%202025-11-18%20181424.png?raw=true)
 
 
 🛣 Roadmap (Upcoming Features)
