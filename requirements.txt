@@ -5,16 +5,14 @@ ffmpeg-python
 openai
 requests
 
-faster-whisper==0.10.0
+faster-whisper
 
-transformers==4.36.2
-tokenizers==0.15.2
+transformers
+tokenizers
 sentencepiece
 accelerate
 
-torch==2.1.0
-torchaudio==2.1.0
-torchvision==0.16.0
+torch
 
 numpy
 tqdm
