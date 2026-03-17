@@ -5,20 +5,15 @@ ffmpeg-python
 openai
 requests
 
-# Whisper (fast CPU)
 faster-whisper==0.10.0
 
-# ✅ FIXED (compatible with Render)
 transformers==4.30.0
 tokenizers==0.13.3
-
 sentencepiece
 accelerate
 
-# PyTorch CPU
-torch==2.0.1+cpu
-torchaudio==2.0.2+cpu
-torchvision==0.16.0
+torch==2.0.1
+torchaudio==2.0.2
 
 numpy
 tqdm
