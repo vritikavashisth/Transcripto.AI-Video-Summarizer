@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 moviepy
 python-dotenv
@@ -17,3 +18,24 @@ torchaudio==2.0.2
 
 numpy
 tqdm
+=======
+streamlit
+moviepy
+python-dotenv
+ffmpeg-python
+openai
+requests
+
+faster-whisper==0.10.0
+
+transformers==4.30.0
+tokenizers==0.13.3
+sentencepiece
+accelerate
+
+torch==2.0.1
+torchaudio==2.0.2
+
+numpy
+tqdm
+>>>>>>> e20f9f3705378aceec5a685a3cbb71ba02556f41
