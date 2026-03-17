@@ -9,8 +9,8 @@ requests
 faster-whisper==0.10.0
 
 # Transformers (compatible)
-transformers==4.31.0
-tokenizers==0.15.0
+transformers==4.36.2
+tokenizers==0.15.2
 sentencepiece
 accelerate
 
