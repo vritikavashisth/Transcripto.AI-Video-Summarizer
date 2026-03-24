@@ -1,19 +1,11 @@
 import os
-<<<<<<< HEAD
 import subprocess
 from faster_whisper import WhisperModel
 from transformers import pipeline
 
 
 # ---------------------------------------------------------
-# 🔥 LOAD MODELS
-=======
-from faster_whisper import WhisperModel
-from transformers import pipeline
-
-# ---------------------------------------------------------
 # 🔥 LOAD MODELS (Only runs once — fastest performance)
->>>>>>> e20f9f3705378aceec5a685a3cbb71ba02556f41
 # ---------------------------------------------------------
 
 whisper_model = WhisperModel(
@@ -28,7 +20,6 @@ summarizer = pipeline(
     device=-1
 )
 
-<<<<<<< HEAD
 
 # ---------------------------------------------------------
 # 🔥 EXTRACT AUDIO FROM VIDEO (Fixes Memory Error)
@@ -42,7 +33,7 @@ def extract_audio(video_path, audio_path="temp_audio.wav"):
         "-i", video_path,
         "-vn",
         "-ac", "1",
-        "-ar", "16000",          # <--- LOW SAMPLE RATE (SAFE)
+        "-ar", "16000",
         audio_path
     ]
 
@@ -63,20 +54,7 @@ def transcribe_audio(video_path, chunk_size=30):
         beam_size=1,
         best_of=1,
         vad_filter=True,
-        chunk_length=chunk_size    # <--- MEMORY FIX
-=======
-# ---------------------------------------------------------
-# 🔥 TRANSCRIBE VIDEO
-# ---------------------------------------------------------
-def transcribe_audio(video_path, chunk_size=30):
-    segments_text = []
-
-    segments, _ = whisper_model.transcribe(
-        video_path,
-        beam_size=1,
-        best_of=1,
-        vad_filter=True,
->>>>>>> e20f9f3705378aceec5a685a3cbb71ba02556f41
+        chunk_length=chunk_size
     )
 
     for seg in segments:
@@ -86,11 +64,7 @@ def transcribe_audio(video_path, chunk_size=30):
 
 
 # ---------------------------------------------------------
-<<<<<<< HEAD
 # 🔥 SUMMARIZE TEXT
-=======
-# 🔥 SUMMARIZE TEXT  (FIXED: Chunk size reduced)
->>>>>>> e20f9f3705378aceec5a685a3cbb71ba02556f41
 # ---------------------------------------------------------
 def summarize_text(text, max_chunk=400):
     chunks = []
@@ -103,10 +77,6 @@ def summarize_text(text, max_chunk=400):
         current.append(w)
         count += 1
 
-<<<<<<< HEAD
-=======
-        # 400 words → safe for BART (fits in 1024 token limit)
->>>>>>> e20f9f3705378aceec5a685a3cbb71ba02556f41
         if count >= max_chunk:
             chunks.append(" ".join(current))
             current = []
@@ -131,11 +101,7 @@ def summarize_text(text, max_chunk=400):
 
 
 # ---------------------------------------------------------
-<<<<<<< HEAD
 # 🔥 MAIN FUNCTION
-=======
-# 🔥 MAIN FUNCTION (returns BOTH transcript & summary)
->>>>>>> e20f9f3705378aceec5a685a3cbb71ba02556f41
 # ---------------------------------------------------------
 def video_to_summary(video_path):
     print("Processing video...")
