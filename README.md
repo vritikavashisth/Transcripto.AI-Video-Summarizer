@@ -136,48 +136,66 @@ Open your browser to interact with the app and upload videos for transcription a
 
 ---
 
-## 📸 Screenshots
+## 🚀 Application Workflow & UI
 
-### 🔹 Home Page
+### 🌐 Home Interface
+
+A clean and modern interface where users can upload videos easily.
 
 <p align="center">
-  <img src="assests/ss1.png" width="600">
+  <img src="assets/ss1.png" width="700">
 </p>
 
-### 🔹 Upload Video
+---
+
+### 📤 Upload Video
+
+Users can browse and select video files directly from their system.
 
 <p align="center">
-  <img src="assests/ss2.png" width="600">
+  <img src="assets/ss2.png" width="700">
 </p>
 
-### 🔹 Processing Screen
+---
+
+### ⚙️ Processing Stage
+
+The system processes the video by extracting audio and generating transcripts.
 
 <p align="center">
-  <img src="assests/ss3.png" width="600">
+  <img src="assets/ss3.png" width="700">
 </p>
 
-### 🔹 Summary Output
+---
+
+### 📝 Transcript Output
+
+The complete transcription of the video is displayed in a clean format.
 
 <p align="center">
-  <img src="assests/ss4.png" width="600">
+  <img src="assets/ss4.png" width="700">
 </p>
 
-### 🔹 Transcript Output
+---
+
+### 🧠 Summary Output
+
+A concise AI-generated summary is produced from the transcript.
 
 <p align="center">
-  <img src="assests/ss5.png" width="600">
+  <img src="assets/ss5.png" width="700">
 </p>
 
-### 🔹 Download Transcript
+---
+
+### 📥 Download Results
+
+Users can download both transcript and summary files.
 
 <p align="center">
-  <img src="assests/ss6.png" width="600">
-</p>
-
-### 🔹 Download Summary
-
-<p align="center">
-  <img src="assests/ss7.png" width="600">
+  <img src="assets/ss6.png" width="700">
+  <br><br>
+  <img src="assets/ss7.png" width="700">
 </p>
 
 ---
@@ -190,8 +208,6 @@ Open your browser to interact with the app and upload videos for transcription a
 * 🕒 Time-stamped transcripts
 * ☁ Cloud deployment (AWS/GCP)
 * 🎨 Enhanced UI/UX
-
----
 
 ---
 
