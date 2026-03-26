@@ -106,36 +106,36 @@ Your browser will open the interface where you can upload videos for transcripti
 
 ### 🔹 Home Page
 <p align="center">
-  <img src="assets/ss1.png" width="600">
+  <img src="assests/ss1.png" width="600">
 </p>
 
 ### 🔹 Upload Video
 <p align="center">
-  <img src="assets/ss2.png" width="600">
+  <img src="assests/ss2.png" width="600">
 </p>
 
 ### 🔹 Processing Screen
 <p align="center">
-  <img src="assets/ss3.png" width="600">
+  <img src="assests/ss3.png" width="600">
 </p>
 ### 🔹 Summary Output
 <p align="center">
-  <img src="assets/ss4.png" width="600">
+  <img src="assests/ss4.png" width="600">
 </p>
 
 ### 🔹 Transcript Output
 <p align="center">
-  <img src="assets/ss5.png.png" width="600">
+  <img src="assests/ss5.png.png" width="600">
 </p>
 
 ### 🔹 Download Transcript
 <p align="center">
-  <img src="assets/ss6.png" width="600">
+  <img src="assests/ss6.png" width="600">
 </p>
 
 ### 🔹 Download Summary
 <p align="center">
-  <img src="assets/ss7.png" width="600">
+  <img src="assests/ss7.png" width="600">
 </p>
 
 
