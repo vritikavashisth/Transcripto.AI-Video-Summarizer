@@ -1,163 +1,211 @@
-# 🎬 Transcripto.AI – Video Transcriptor & Summarizer
+# 🎬 Transcripto.AI – Intelligent Video Transcription & Summarization
 
-Transcripto.AI is a powerful and modern AI tool that converts long videos into **accurate transcripts** and **concise summaries**.  
-It uses Whisper for speech-to-text and BART for text summarization — all wrapped in a clean Streamlit interface.
+Transcripto.AI is an end-to-end AI-powered application that transforms long-form video content into **accurate transcripts** and **concise, human-like summaries**.
+It leverages state-of-the-art models like **Whisper** for speech recognition and **BART** for natural language summarization, all integrated into an intuitive Streamlit interface.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-### 1️⃣ 🎧 **Video-to-Audio Extraction**
-- Uses FFmpeg to extract high-quality audio  
-- Supports MP4, MKV, MOV, AVI  
-- Clean audio → Better transcription accuracy  
+### 🎧 Video-to-Audio Processing
 
-### 2️⃣ 🗣 **Whisper Speech-to-Text**
-- Powered by OpenAI Whisper  
-- Handles background noise and multiple accents  
-- Produces accurate, punctuation-ready transcripts  
+* Extracts high-quality audio using FFmpeg
+* Supports multiple formats: MP4, MKV, MOV, AVI
+* Optimized preprocessing for improved transcription accuracy
 
-### 3️⃣ ✂ **Intelligent Text Chunking**
-- Automatically splits long transcripts  
-- Prevents token overflow for summarization models  
-- Maintains flow & context  
+### 🗣 Speech-to-Text (Whisper)
 
-### 4️⃣ 🧠 **AI Text Summarization (BART)**
-- Uses HuggingFace BART model  
-- Converts long transcripts into short, meaningful summaries  
-- Human-like natural language output  
+* Powered by OpenAI Whisper
+* Robust against noise, accents, and varied speech patterns
+* Generates clean, punctuated transcripts
 
-### 5️⃣ 🌐 **Streamlit UI**
-- Drag-and-drop video upload  
-- Real-time progress indicators  
-- Dark-mode friendly interface  
-- One-click transcript and summary download  
+### ✂ Smart Text Chunking
+
+* Automatically segments long transcripts
+* Prevents token overflow in transformer models
+* Maintains contextual continuity
+
+### 🧠 AI Summarization (BART)
+
+* Uses HuggingFace BART transformer
+* Produces concise and meaningful summaries
+* Retains key insights from long content
+
+### 🌐 Interactive UI (Streamlit)
+
+* Simple drag-and-drop video upload
+* Real-time processing feedback
+* Clean and responsive interface
+* Download transcripts and summaries instantly
 
 ---
 
 ## 🔄 Processing Pipeline
 
-🎥 Video Input
-↓
-🎧 Audio Extraction (FFmpeg)
-↓
-🗣 Whisper Transcription
-↓
-✂ Smart Chunking
-↓
-🧠 BART Summarization
-↓
-📝 Final Output (Transcript + Summary)
+```text
+Video Input
+   ↓
+Audio Extraction (FFmpeg)
+   ↓
+Speech-to-Text (Whisper)
+   ↓
+Text Chunking
+   ↓
+Summarization (BART)
+   ↓
+Final Output (Transcript + Summary)
+```
 
 ---
 
 ## 📁 Project Structure
 
+```
 AI-Agent-Transcribing-and-Summarizing-Videos/
 │
-├── app.py # Streamlit GUI
-├── main.py # Main pipeline
-├── transcriber.py # Whisper + audio extractor
-├── summarizer.py # BART summarizer
-├── utils.py # Chunking + helpers
-├── requirements.txt # Dependencies
-└── notes.txt # Notes (optional)
+├── app.py              # Streamlit UI
+├── main.py             # Pipeline orchestration
+├── transcriber.py      # Audio extraction + Whisper
+├── summarizer.py       # BART summarization
+├── utils.py            # Helper functions (chunking etc.)
+├── requirements.txt    # Dependencies
+└── notes.txt           # Additional notes
+```
 
 ---
 
-## ⚙️ Technology Stack
+## ⚙️ Tech Stack
 
-### 🤖 **Machine Learning**
-- Whisper (Speech-to-Text)  
-- BART Transformer (Summarization)  
-- PyTorch backend  
+### 🤖 Machine Learning
 
-### 🧩 **Libraries & Tools**
-- Streamlit  
-- FFmpeg / ffmpeg-python  
-- HuggingFace Transformers  
+* Whisper (Speech Recognition)
+* BART Transformer (Summarization)
+* PyTorch
 
-### 🖥 **Programming Language**
-- Python 3.10+
+### 🧩 Tools & Libraries
+
+* Streamlit
+* FFmpeg
+* HuggingFace Transformers
+
+### 💻 Language
+
+* Python 3.10+
 
 ---
 
-## 🛠 Installation
+## 🛠 Installation & Setup
 
-### 1️⃣ Clone Repository
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/your-username/AI-Agent-Transcribing-and-Summarizing-Videos.git
 cd AI-Agent-Transcribing-and-Summarizing-Videos
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Install FFmpeg
-Windows: Download from ffmpeg.org
-macOS:
+### 3️⃣ Install FFmpeg
+
+* Windows: Download from https://ffmpeg.org
+* macOS:
+
+```bash
 brew install ffmpeg
-Linux:
-sudo apt install ffmpeg
+```
 
-▶️ Run the Application
+* Linux:
+
+```bash
+sudo apt install ffmpeg
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
 streamlit run app.py
-Your browser will open the interface where you can upload videos for transcription + summarization.
+```
+
+Open your browser to interact with the app and upload videos for transcription and summarization.
+
+---
 
 ## 📸 Screenshots
 
 ### 🔹 Home Page
+
 <p align="center">
-  <img src="assests/ss1.png" width="600">
+  <img src="assets/ss1.png" width="600">
 </p>
 
 ### 🔹 Upload Video
+
 <p align="center">
-  <img src="assests/ss2.png" width="600">
+  <img src="assets/ss2.png" width="600">
 </p>
 
 ### 🔹 Processing Screen
+
 <p align="center">
-  <img src="assests/ss3.png" width="600">
+  <img src="assets/ss3.png" width="600">
 </p>
+
 ### 🔹 Summary Output
+
 <p align="center">
-  <img src="assests/ss4.png" width="600">
+  <img src="assets/ss4.png" width="600">
 </p>
 
 ### 🔹 Transcript Output
+
 <p align="center">
-  <img src="assests/ss5.png.png" width="600">
+  <img src="assets/ss5.png" width="600">
 </p>
 
 ### 🔹 Download Transcript
+
 <p align="center">
-  <img src="assests/ss6.png" width="600">
+  <img src="assets/ss6.png" width="600">
 </p>
 
 ### 🔹 Download Summary
+
 <p align="center">
-  <img src="assests/ss7.png" width="600">
+  <img src="assets/ss7.png" width="600">
 </p>
 
+---
 
-🛣 Roadmap (Upcoming Features)
-🌍 Multi-language transcription
+## 🛣 Roadmap
 
-🔗 Multi-model summarization
+* 🌍 Multi-language transcription
+* 🔗 Support for multiple summarization models
+* 📄 Export as PDF
+* 🕒 Time-stamped transcripts
+* ☁ Cloud deployment (AWS/GCP)
+* 🎨 Enhanced UI/UX
 
-📄 Export transcript + summary as PDF
+---
 
-🕒 Time-stamped transcripts
+---
 
-☁ Cloud deployment
+## 👨‍💻 Author
 
-🎨 Improved UI animations
+**Vritika**
+AI/ML Enthusiast | Building Real-World Intelligent Systems
 
-🤝 Contributing
-Pull requests are welcome!
-For major changes, please open an issue to discuss your proposal.
+🔗 GitHub: https://github.com/vritikavashisth
+🔗 LinkedIn: https://linkedin.com/in/vritikasharmaa
 
-📄 License
-This project is licensed under the MIT License.
+---
 
-❤️ Support
-If you like this project, consider giving it a ⭐ on GitHub!
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub — it helps a lot!
+
