@@ -221,7 +221,4 @@ AI/ML Enthusiast | Building Real-World Intelligent Systems
 
 ---
 
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub — it helps a lot!
 
